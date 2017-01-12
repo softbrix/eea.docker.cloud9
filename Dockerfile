@@ -1,5 +1,6 @@
-FROM node:0.12-slim
+FROM node:6-slim
 MAINTAINER "EEA: IDM2 A-Team" <eea-edw-a-team-alerts@googlegroups.com>
+LABEL authors="Andreas Sehr <andreas@softbrix.se>"
 
 # ------------------------------------------------------------------------------
 # Install dependencies
